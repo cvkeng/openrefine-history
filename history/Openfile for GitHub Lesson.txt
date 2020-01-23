@@ -269,7 +269,7 @@
     "newColumnName": "Journal Title 2",
     "columnInsertIndex": 9,
     "baseColumnName": "ISSNs",
-    "expression": "grel:\"https://api.crossref.org/journals/\"+value",
+    "expression": "grel:\"https://portal.issn.org/resources?ISSN/\"+value",
     "onError": "set-to-blank"
   }
 ]
